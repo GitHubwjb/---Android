@@ -1,0 +1,28 @@
+
+textarea{
+	width:87%;
+	margin:15px auto;
+	padding:10px;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+button{
+	display: inline-block;
+}
+button[type="primary"]{
+	margin-left:15px;
+	margin-right:10px;
+}
+button[type="warn"]{
+	width:60%;
+}
+.shad{
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+	border:none;
+}
+.textA{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+

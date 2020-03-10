@@ -1,0 +1,85 @@
+{
+	"pages": [//跳转页面配置
+		
+		{
+		    "path" : "pages/index/index",
+		    "style" : {
+		    	"navigationBarTitleText" : "Search questions",
+				"app-plus": {
+					"bounce": "none"
+				}
+		    }
+		},
+		
+		{
+			"path" : "pages/modularA/modularA",
+			"style" : {
+				"navigationBarTitleText" : "Go shopping",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path" : "pages/modularB/modularB",
+			"style" : {
+				"navigationBarTitleText" : "Make money",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{ 
+			"path" : "pages/myinfo/myinfo",
+			"style" : {
+				"navigationBarTitleText" : "My info",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		
+	],
+	
+
+	"globalStyle": {// 顶部头部配置
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	
+	"tabBar" : {// 底部导航配置
+	    "color" : "#37383b",
+	    "selectedColor" : "#29deaf",
+	    "borderStyle" : "black",
+	    "backgroundColor" : "#ffffff",
+		"list": [
+			{
+			    "pagePath" : "pages/index/index",
+			    "iconPath" : "static/tabbar-image/search.png",
+			    "selectedIconPath" : "static/tabbar-image/search-select.png",
+			    "text" : "查题"
+			},
+			{
+				"pagePath" : "pages/modularA/modularA",
+				"iconPath" : "static/tabbar-image/shopping.png",
+				"selectedIconPath" : "static/tabbar-image/shopping-select.png",
+				"text" : "购物"
+			}, 
+			{
+				"pagePath" : "pages/modularB/modularB", 
+				"iconPath" : "static/tabbar-image/money.png",
+				"selectedIconPath" : "static/tabbar-image/money-select.png",
+				"text" : "赚钱"
+			},
+			{
+				"pagePath" : "pages/myinfo/myinfo",
+				"iconPath" : "static/tabbar-image/myinfo.png",
+				"selectedIconPath" : "static/tabbar-image/myinfo-select.png",
+				"text" : "我的"
+			}
+		]
+	}
+}

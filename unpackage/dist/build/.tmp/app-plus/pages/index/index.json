@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Search questions",
+  "bounce": "none",
+  "usingComponents": {
+    "uni-card": "/components/index/uni-card/uni-card"
+  }
+}
